@@ -7,7 +7,7 @@ A few remarks:
 * getting a pi up and running without connecting a monitor to it is pretty tricky. Here, we will assume you'll use a monitor or TV with an HDMI input. 
 
 Here are steps. 
-1. buy: 
+1. equipment needed: 
 * a raspberry pi (a zero W is $10 https://www.raspberrypi.org/products/raspberry-pi-zero-w/)
 * micro-usb power supply, case, micro-SD card, and card reader, USB and HDMI adaptors (see https://www.adafruit.com/product/2885)
 2. connect the SD card to your computer and flash it with the latest version of the operating system at https://www.raspberrypi.org/downloads/
