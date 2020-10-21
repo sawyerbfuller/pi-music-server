@@ -1,7 +1,6 @@
-# pi-music-server
-A raspberry pi-based music server for sonos
+# A raspberry pi-based music server for Sonos
 
-Have a few gigs of music you'd like to play through your sonos from your phone and Google Music is shut down? Don't buy a big bulky NAS server ($200+), store and serve your music from the SD card on a raspberry pi! Here are steps to set it up (please post if I've missed something)
+Have a few gigs of music you'd like to play through your Sonos from your phone and can't use Google Music anymore? (Yet another cancelled Google product) Store and serve your music from the SD card on a raspberry pi! This is cheaper and smaller than an overkill NAS server. Here are steps to set it up (please post if I've missed something)
 
 A few remarks: 
 * these instructions assume you will add music by inserting the card into your computer and adding files to the /music folder. Therefore, the samba server running on the pi is configured to not allow write access. 
@@ -43,5 +42,6 @@ Guest ok = yes
 8. shutdown the pi ``sudo shutdown now``
 9. copy music onto the /music folder of the card from your desktop computer and then restart the pi
 10. on your sonos phone app, add the new music library to sonos (from https://support.sonos.com/s/article/257?language=en_US)
-* go to "Settings .. system ... Music Library ... Music Library Setup ... + Add Shared Music Folder" and type in ``//<IP address from step 4>/music`` and the files should appear under "Music Library" when you open the Browse menu at the bottom of the screen. 
+* go to "Settings .. system ... Music Library ... Music Library Setup ... + Add Shared Music Folder" and type in ``//<IP address from step 4>/music`` 
 * note: on a Mac, you can check that you can access the file server by, in Finder, "go to file … connect to server", and entering ``smb:<IP address from step 4>\``. 
+11. The files should appear under "Music Library" when you open the Browse menu at the bottom of the screen, and play with a tap. 
