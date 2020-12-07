@@ -1,6 +1,6 @@
 # A raspberry pi-based music server for Sonos
 
-Have a few gigs of music you'd like to play through your Sonos from your phone? You used to be able to store music online using Google Music for free, but they've cancelled that service. You could use a Network Addressed Storage (NAS) server e.g. from Synology, but if you just have a couple of gigs, they're way overkill and bulky. 
+Have a few gigs of music you'd like to play through your Sonos from your phone? You used to be able to store music online using Google Music for free, but they've cancelled that service. You could use a Network Addressed Storage (NAS) server e.g. from Synology, but they're overkill and bulky if you just have a couple of gigs. 
 
 Much better: serve them from a $10, credit-card sized raspberry pi zero! 
 
