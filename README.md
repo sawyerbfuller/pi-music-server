@@ -1,13 +1,15 @@
 # A raspberry pi-based music server for Sonos
 
-Have a few gigs of music you'd like to play through your Sonos from your phone and can't use Google Music anymore? (Yet another cancelled Google product) Store and serve your music from the SD card on a raspberry pi! This is cheaper and smaller than an overkill NAS server. Here are steps to set it up (please post if I've missed something)
+Have a few gigs of music you'd like to play through your Sonos from your phone? You used to be able to store music online using Google Music for free, but they've cancelled that service. You could use a Network Addressed Storage (NAS) server e.g. from Synology, but if you just have a couple of gigs, they're way overkill and bulky. 
 
-A few remarks: 
-* these instructions assume you will add music by inserting the card into your computer and adding files to the /music folder. Therefore, the samba server running on the pi is configured to not allow write access. 
-* getting a pi up and running without connecting a monitor to it is pretty tricky. Here, we will assume you'll use a monitor or TV with an HDMI input. 
+Much better: serve them from a $10, credit-card sized raspberry pi zero! 
+
+I've put down the steps I used to set it up, and my server has been running without a hitch for months. (please post if I've missed something) A few remarks: 
+* these instructions assume you will add music by inserting the card into your computer and adding files to the /music folder. Therefore, the samba server running on the pi is not configured to allow write access. 
+* getting a pi up and running without connecting a monitor to it is tricky. Its a pretty good idea to use a monitor or TV with an HDMI input to get started. Unfortunately, many low-end monitors don't have HDMI so you might have to trek over to the TV.  
 
 Here are steps. 
-1. equipment needed: 
+1. buy equipment: 
 * a raspberry pi (a zero W is $10 https://www.raspberrypi.org/products/raspberry-pi-zero-w/)
 * micro-usb power supply, case, micro-SD card, and card reader, USB and HDMI adaptors (see https://www.adafruit.com/product/2885)
 2. connect the SD card to your computer and flash it with the latest version of the operating system at https://www.raspberrypi.org/downloads/
